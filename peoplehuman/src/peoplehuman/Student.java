@@ -8,27 +8,30 @@ package peoplehuman;
  */
 
 public class Student extends Person {	
-private String gender;	
+	
+		double GPA; 			//indicates the student's GPA 
+		int gradYear,			//indicates what grade the student is in
+			numberOfClasses;	//indicates the number of classes the student is taking
+			
 		
-	public Student(double GPA, int numberOfClasses, int numberOfCuts) {
-		
+	public Student( double GPA,
+					int gradYear,
+					int numberOfClasses,
+					String firstName, 
+					String lastName,
+					int height,
+					double weight 
+			   		)  
 		{
-			super (GPA, numberOfClasses, numberOfCuts); //must call superconstructor first
-			this.gender = gender;
+			super (firstName, lastName, height, weight); //must call superconstructor first
+			this.GPA = GPA;
+			this.gradYear = gradYear;
+			this.numberOfClasses = numberOfClasses;
 		}
-		
-
-	}
 	
-	public double getGPA() { 
-		return GPA; 
-	}
 	
-	public int getnumberOfClasses() {
-		return numberOfClasses;
-	}
 	
-	public int getnumberOfCuts() {
-		return numberOfCuts;
-	}
+	
+	
+	
 }

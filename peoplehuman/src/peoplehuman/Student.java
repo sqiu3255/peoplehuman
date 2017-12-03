@@ -29,9 +29,15 @@ public class Student extends Person {
 			this.numberOfClasses = numberOfClasses;
 		}
 	
+	public double getGPA() {
+		return this.GPA;
+	}
 	
+	public int getGradYear() {
+		return this.gradYear;
+	}
 	
-	
-	
-	
+	public int numberOfClasses() {
+		return this.numberOfClasses;
+	}
 }

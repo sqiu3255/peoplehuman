@@ -14,8 +14,6 @@ public abstract class Person {
 	private double weight; //pounds
 				 
 	
-	
-	
 	public Person ( 
 				   String firstName, 
 				   String lastName,
@@ -30,5 +28,16 @@ public abstract class Person {
 		
 	}
 
+	public int getHeight() {
+		return this.height;
+	}
+	
+	public double getWeight() {
+		return this.weight;
+	}
+	 
+	public String toString() {
+		return this.firstName + " " + this.lastName;
+	}
 					
 }

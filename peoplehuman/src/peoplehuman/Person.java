@@ -8,10 +8,10 @@ package peoplehuman;
  */
 
 public abstract class Person {
-	private String firstName, 
-				   lastName;
-	private int height; //in inches
-	private double weight; //pounds
+	String firstName, 
+			lastName;
+	int height; //in inches
+	double weight; //pounds
 				 
 	
 	public Person ( 

@@ -9,7 +9,7 @@ package peoplehuman;
 
 public class Teacher extends Person{
 	private String subject;
-	private String title;
+	private String title; //Mr, Ms, Mx, Mrs
 
 	public Teacher(int height, String firstName, String lastName, double weight, String title, String subject)
 	{
@@ -22,7 +22,7 @@ public class Teacher extends Person{
 		return this.subject;
 	}
 	
-	public String getTitle() {
-		return this.title;
+	public String toString() {
+		return this.title + " " + lastName;
 	}
 }

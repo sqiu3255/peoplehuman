@@ -37,7 +37,7 @@ public abstract class Person {
 	}
 	 
 	public String toString() {
-		return this.firstName + " " + this.lastName;
+		return firstName + " " + lastName;
 	}
 					
 }

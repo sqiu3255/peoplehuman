@@ -28,5 +28,7 @@ public class Classroom {
 		}
 		return average;
 	}
-	
+	 public String printClass() {
+		 return ((Teacher)teacher).toString() + ", " + ((Teacher)teacher).getSubject() + ", " + students.length;
+	 }
 }

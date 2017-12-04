@@ -9,7 +9,7 @@ package peoplehuman;
 
 
 public class PeopleRunner {
-
+ 
 	public static void main(String[] args) {
 	
 		Student[] students = new String[];

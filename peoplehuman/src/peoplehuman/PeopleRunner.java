@@ -7,10 +7,23 @@ package peoplehuman;
  *
  */
 
+
 public class PeopleRunner {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
+		Student[] students = new String[];
+		Teacher teacher;
+		
+	Peoplehuman classroom = new Classroom();
+	
+		
+		
+		
+		
+		
+		
+		
 		
 	}
 
